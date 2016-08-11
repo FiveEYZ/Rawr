@@ -59,8 +59,8 @@ namespace Rawr.Silverlight
             OpenFileDialog dialog = new OpenFileDialog();
             if (dialog.ShowDialog() ?? false)
             {
-                UploadTextBox.Text = dialog.SelectedFile.Name;
-                character = dialog.SelectedFile.OpenText().ReadToEnd();
+                UploadTextBox.Text = dialog.File.Name;       //SelectedFile.Name;
+                character = dialog.File.OpenText().ReadToEnd();
             }
         }
 
