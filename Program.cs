@@ -40,6 +40,7 @@ namespace Rawr
 #if !DEBUG
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 //MessageBox.Show("Rawr encountered a serious error. Please copy and paste this into an e-mail to cnervig@hotmail.com. Thanks!\r\n\r\n\r\n" + ex.Message + "\r\n\r\n" + ex.StackTrace);
             }
 #endif

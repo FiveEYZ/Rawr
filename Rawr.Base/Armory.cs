@@ -19,7 +19,7 @@ namespace Rawr
 		public static Character GetCharacter(Character.CharacterRegion region, string realm, string name, out string[] itemsOnCharacter)
 		{
 			XmlDocument docCharacter = null;
-            XmlDocument docTalents = null;
+            //XmlDocument docTalents = null; //TM unused-clean?
             try
 			{
 				WebRequestWrapper wrw = new WebRequestWrapper();

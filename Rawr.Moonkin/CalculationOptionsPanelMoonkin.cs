@@ -284,6 +284,7 @@ namespace Rawr.Moonkin
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
             }
             #endregion
         }
