@@ -31,4 +31,3 @@ C:\Doky\Tom\Development\Rawr\obj\Release\Rawr.UserControls.Options.ProxySettings
 C:\Doky\Tom\Development\Rawr\obj\Release\Rawr.csproj.GenerateResource.Cache
 C:\Doky\Tom\Development\Rawr\obj\Release\Rawr.exe
 C:\Doky\Tom\Development\Rawr\obj\Release\Rawr.pdb
-C:\Doky\Tom\Development\Rawr\bin\Release\Rawr.Base.pdb
